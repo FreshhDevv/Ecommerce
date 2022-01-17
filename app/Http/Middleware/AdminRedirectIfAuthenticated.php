@@ -1,5 +1,7 @@
 <?php
 
+// WHEN YOU CREATE A MIDDLEWARE, YOU HAVE TO REGISTER IT IN THE KERNEL.PHP
+
 namespace App\Http\Middleware;
 
 use App\Providers\RouteServiceProvider;
@@ -7,7 +9,7 @@ use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class RedirectIfAuthenticated
+class AdminRedirectIfAuthenticated
 {
     /**
      * Handle an incoming request.
