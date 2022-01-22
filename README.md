@@ -65,3 +65,5 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # Advanced_Ecommerce
+A complete full fleshed e-commerce platform built from the ground up.
+A full description of all the features will be added here as we go.
