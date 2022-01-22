@@ -15,7 +15,9 @@ return [
     |
     */
 
-    'driver' => 'bcrypt',
+    //Use argon2id for better password security
+
+    'driver' => 'argon2id',
 
     /*
     |--------------------------------------------------------------------------
@@ -44,6 +46,12 @@ return [
     */
 
     'argon' => [
+        'memory' => 1024,
+        'threads' => 2,
+        'time' => 2,
+    ],
+
+    'argon2id' => [
         'memory' => 1024,
         'threads' => 2,
         'time' => 2,
