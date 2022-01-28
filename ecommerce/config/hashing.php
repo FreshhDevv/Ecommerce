@@ -17,7 +17,7 @@ return [
 
     //Use argon2id for better password security
 
-    'driver' => 'argon2id',
+    'driver' => 'bcrypt',
 
     /*
     |--------------------------------------------------------------------------
