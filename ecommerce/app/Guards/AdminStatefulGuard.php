@@ -61,9 +61,3 @@ interface AdminStatefulGuard extends Guard
      */
     public function logout();
 }
-
-
-
-
-
-
