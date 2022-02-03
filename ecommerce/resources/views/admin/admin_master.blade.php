@@ -454,7 +454,9 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
+      
 	  @yield('admin')
+      
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
